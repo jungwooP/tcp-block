@@ -1,10 +1,12 @@
 all: tcp-block
 
-main.o: mac.h ip.h ethhdr.h main.cpp
+main.o: mac.h ip.h ethhdr.h tcphdr.h main.cpp
 
 ethhdr.o: mac.h ethhdr.h ethhdr.cpp
 
 iphdr.o: ip.h iphdr.h iphdr.cpp
+
+tcphdr.o: tcphdr.h tcphdr.cpp
 
 ip.o: ip.h ip.cpp
 
