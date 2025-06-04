@@ -4,9 +4,9 @@ tcp-block
 ### Build & Test
 ```
 make
-./tcp-block eth0 "Host: test.gilgil.net"
+sudo ./tcp-block eth0 "Host: test.gilgil.net"
 ```
 
 ### Demo Video
-[Video](tcp-block-demo.mp4)
+![Video](tcp-block-demo.mp4)
 
